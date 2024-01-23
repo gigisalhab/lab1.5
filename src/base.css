@@ -3,15 +3,14 @@ body {
     background-color: #000;
     color: #fff;
     text-align: center;
-    margin-top: 20px;
+    padding-top: 15px;
 }
 
-nav {
-    background-image: url('images/image1.jpeg'); 
+nav{ 
+    background-image: url('/images/image1.jpeg');
     background-size: cover;
     background-position: center;
-    padding: 20px 0; /* Adjust as needed */
-    text-align: center;
+    padding: 75px 0;
 }
 
 nav ul {
@@ -31,7 +30,7 @@ nav a {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-color: #17b148; /* Base color for land */
+    background-color: #17b148; 
     background-image: 
         radial-gradient(circle at 20% 30%, #1E90FF, transparent 30%),
         radial-gradient(circle at 80% 40%, #1E90FF, transparent 45%),
