@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Earth & Moon</title>
+    <title>{% block title %}Earth & Moon{% endblock %}</title>
     <link rel="stylesheet" href="/base.css">
 </head>
 <body>
     <main>
-        
-<h1>Moon</h1>
-<p>Details about the Moon...</p>
-<p>The Moon is Earth's only natural satellite, known for its phases and impact on our planet's tides, and it's the only other celestial body that humans have set foot on.</p>
-
+        {% block content %}
+        <h1>Earth</h1>
+        <p>Details about the Earth...</p>
+        <p><The Earth is our home planet, the third from the Sun in our solar system, known for its vast oceans, diverse ecosystems, and unique ability to support life.</p>
+        {% endblock %}
     </main>
     <nav>
         <ul>

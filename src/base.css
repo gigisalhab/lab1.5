@@ -1,0 +1,47 @@
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: #000;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav a {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #444;
+    transition: box-shadow 0.3s ease;
+}
+
+nav a.moon-link {
+    width: 90px;
+    height: 90px; 
+    margin-bottom: 10px;
+}
+
+nav a:hover, nav a:focus {
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.6);
+    cursor: pointer;
+}
+
+
+
+footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
